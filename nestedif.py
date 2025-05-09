@@ -3,9 +3,9 @@ nilai = int(input('Masukkan nilai : '))
 
 #proses
 if nilai >= 75 :
-    status = 'Lulus'
+    status = 'remidi'
     if nilai >= 85 :
-        predikat = 'Memuaskan'
+        predikat = 'lulus'
     else :
         predikat = 'Cukup'
 else :
